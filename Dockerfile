@@ -1,8 +1,6 @@
-FROM fedora:22
+FROM python:2.7
 
-# Seperate for more cache
-RUN dnf install python-pip fedmsg git -y
-RUN dnf install python-sphinx -y
+RUN apt-get update; apt-get install python-sphinx -y
 
 RUN git clone https://github.com/godiard/help-activity /help
 ADD . /help/server

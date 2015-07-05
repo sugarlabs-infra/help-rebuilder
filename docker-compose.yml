@@ -1,5 +1,4 @@
 helprebuild:
   build: .
   volumes:
-    - /etc/fedmsg.d:/etc/fedmsg.d
     - /srv/help-out:/help/html
