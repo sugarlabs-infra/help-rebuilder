@@ -1,4 +1,0 @@
-helprebuild:
-  build: .
-  volumes:
-    - /srv/help-out:/help/html

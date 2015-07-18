@@ -1,0 +1,5 @@
+volumes:
+  - /srv/help-out:/help/html
+
+memory: 128m
+cpu: 10
